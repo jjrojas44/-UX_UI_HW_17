@@ -1,6 +1,6 @@
 .inline-block {
     display: inline-block;
-    vertical-align: right;
+    vertical-align: top;
 
 }
 
@@ -36,5 +36,5 @@ footer {
 
 footer ul {
     display: inline-block;
-    vertical-align: right;
+    vertical-align: top;
 }
