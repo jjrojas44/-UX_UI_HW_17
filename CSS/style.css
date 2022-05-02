@@ -1,11 +1,17 @@
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #9E643C;
 }
   
 .topnav a {
-    float: right;
-    color: #f2f2f2;
+    float: left;
+    display: block;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -13,18 +19,13 @@
 }
   
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #EEE8AA;
+    color: #9E643C;
 }
   
 .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.ul {
-    width: 50%;
-    margin-left: auto;
+    background-color: #FFFFFF;
+    color:#9E643C;
 }
 
 .heroImg {
