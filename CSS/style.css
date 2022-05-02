@@ -6,16 +6,7 @@ font-family: Arial, Helvetica, sans-serif;
 .inline-block {
     overflow: hidden;
     background-color: #9E643C;
-}
-
-ul#horizontal-list {
-	min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
-}
-
-ul#horizontal-list li {
-		display: inline;
+    
 }
   
 .topnav a {
