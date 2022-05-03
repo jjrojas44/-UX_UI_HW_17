@@ -3,10 +3,9 @@ margin: 0;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-.inline-block {
+.topnav {
     overflow: hidden;
     background-color: #9E643C;
-    
 }
   
 .topnav a {
