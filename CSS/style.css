@@ -20,7 +20,7 @@
       height:500px;
       border:1px solid #EEE8AA;
       background-color: #9E643C;
-      h1 {
+      h2 {
       color:#EEE8AA;
       font-size: 60px;
       text-align: center;
@@ -40,6 +40,32 @@
       position: relative;
       text-align: center;
     }
+    
+    .rectangle2{
+    padding-top:40px;
+      width:955px;
+      height:100px;
+      border:1px solid #EEE8AA;
+      background-color: #9E643C;
+      h3 {
+      color:#EEE8AA;
+      font-size: 50px;
+      text-align: center;
+    }
+      margin-top:70px;
+      position: relative;
+      text-align: center;
+    }
+    
+    .rectangle3{
+    padding-top:40px;
+      width:955px;
+      height:100px;
+      border:1px solid #EEE8AA;
+      background-color: #9E643C;
+      margin-top:70px;
+    }
+    
     
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 * {
