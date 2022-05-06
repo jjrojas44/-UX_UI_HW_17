@@ -7,70 +7,82 @@
         <link rel="stylesheet" href="assets/demo.css">
 	    <link rel="stylesheet" href="assets/header-fixed.css">
 	    <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
-    </head>
+   </head>
+
     <body>
-        <header id="nav-wrapper">
-            <nav id="nav">
-              <div class="nav left">
-                <span class="gradient skew"><h1 class="logo un-skew"><a href="#home">Logo Here</a></h1></span>
-                <button id="menu" class="btn-nav"><span class="fas fa-bars"></span></button>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+          
+              <div class="navbar-header">
+                <button class="navbar-toggler" data-toggle="open-navbar1">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+                <a href="#">
+                  <h4>Awesome<span>logo</span></h4>
+                </a>
               </div>
-              <div class="nav right">
-                <a href="#Home" class="nav-link active"><span class="nav-link-span"><span class="u-nav">Home</span></span></a>
-                <a href="#Projects" class="nav-link"><span class="nav-link-span"><span class="u-nav">About</span></span></a>
-                <a href="#AboutMe" class="nav-link"><span class="nav-link-span"><span class="u-nav">Work</span></span></a>
-                <a href="#ContactMe" class="nav-link"><span class="nav-link-span"><span class="u-nav">Contact</span></span></a>
+          
+              <div class="navbar-menu" id="open-navbar1">
+                <ul class="navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li class="navbar-dropdown">
+                    <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                      Categories <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" id="my-dropdown-id">
+                      <li><a href="#">Actions</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">Seprated link</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">One more seprated link.</a></li>
+                    </ul>
+                  </li>
+                  <li class="navbar-dropdown">
+                    <a href="#" class="dropdown-toggler" data-dropdown="blog">
+                      Blog <i class="fa fa-angle-down"></i>
+                    </a>
+                    <ul class="dropdown" id="blog">
+                      <li><a href="#">Some category</a></li>
+                      <li><a href="#">Some another category</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">Seprated link</a></li>
+                      <li class="separator"></li>
+                      <li><a href="#">One more seprated link.</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
               </div>
-            </nav>
-        </header>
+            </div>
+          </nav> 
+
+          
+       
+    </header>
 
         <section>
-            <div id="header">
-              <h1>JuanRojas</h1>
-            </div>
-      
-             <div id="nav">
-               UX/UI Designer<br>
-               Visual Designer<br>
-               Tokyo
-            </div>
-      
-            <div id="section">
-              <h1>London</h1>
-              <p>London is the capital city of England. It is the most populous city in the United Kingdom,
-               with a metropolitan area of over 13 million inhabitants.</p>
-              <p>Standing on the River Thames, London has been a major settlement for two millennia,
-               its history going back to its founding by the Romans, who named it Londinium.</p>
-            </div>
+            <div class="rectangle">
+                <h1>Welcome</h1>
+               </div>
+               <div class="rectangle1">
+                <h1>Juan Jose Rojas</h1>
+                 <p> UX/UI DESIGNER & VISUAL DESIGNER
+                <imgl src="./images/_logo - Copy.png">
+                   
+               </div>   
        </section>
             
             
         
-        <main>
-            <section id="Home">
-        
-            </section>
-            <section id="#Projects">
-        
-            </section>
-            <section id="#AboutMe">
-        
-            </section>
-            <section id="#ContactMe">
-        
-            </section>
-          </main>
-
-
       
 
         <footer>
-            <ul>
-                <li class="inline-block"><a href="#">About</a></li>
-                <li class="inline-block"><a href="#">Skills</a></li>
-                <li class="inline-block"><a href="#">Work</a></li>
-                <li class="inline-block"><a href="#">Contact</a></li>
-            </ul>
+            
         </footer>
     </body>
 </html> 
