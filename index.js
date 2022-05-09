@@ -3,7 +3,7 @@ let dropdownIsOpen = false
 
 
 if (dropdowns.length) {
-
+ 
   dropdowns.forEach((dropdown) => {
     dropdown.addEventListener('click', (event) => {
       let target = document.querySelector(`#${event.target.dataset.dropdown}`)
@@ -39,6 +39,7 @@ window.addEventListener('mouseup', (event) => {
   }
 })
 
+
 function handleSmallScreens() {
   document.querySelector('.navbar-toggler')
     .addEventListener('click', () => {
@@ -54,6 +55,3 @@ function handleSmallScreens() {
 }
 
 handleSmallScreens()
-
-
-

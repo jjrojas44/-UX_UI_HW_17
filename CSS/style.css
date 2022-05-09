@@ -376,9 +376,7 @@ a {
   display: flex;
   justify-content: center;
 }
-.effect {
-  /* thurio effect */
-}
+
 .effect a {
   text-decoration: none !important;
   width: 60px;
