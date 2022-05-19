@@ -1,0 +1,11 @@
+header {
+ background-image:url(../images/earth.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.heroContent{
+   display: flex;
+   min-height: 80vh;
+}
