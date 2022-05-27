@@ -11,6 +11,10 @@
     border-bottom: 2px solid var(--Secondary-dark);
 } 
 
+li{
+    padding-right: 5%;
+}
+
 .timeline {
     position: relative;
     padding: 0;
@@ -308,6 +312,8 @@
     width: 100%;
     padding: 34px 40px;
 }
+
+
 
 /* lg screen */
 @media (max-width: 1199.98px) { 
