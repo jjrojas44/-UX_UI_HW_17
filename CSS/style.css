@@ -237,7 +237,7 @@ li{
   
   section#contact {
     background-color: #222;
-    background-image: url(/images/image\ of\ space.jpg);
+    background-image: url(/img/earth.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -265,7 +265,7 @@ li{
   }
   
   section#contact .form-control:focus {
-    border-color: #16130A;
+    border-color: #f1f1f1;
     box-shadow: none;
   }
   
@@ -295,6 +295,10 @@ li{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
+  }
+
+  btn{
+      background-color: aqua;
   }
   
   section#contact .text-danger {
